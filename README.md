@@ -1,25 +1,5 @@
 # Hotel Management System
-
 This repository contains a Hotel Management System implemented using HTML, CSS, JavaScript, and PHP. It enables form submissions that execute various database queries for guest management, room allocation, and reservations, fostering efficient hotel operations.
-## Techstacks Used
-- HTML, CSS, JavaScript frontend
-- PHP backend for database interactions
-## Features
-- CRUD Opearions
-- Executing Different queries and showing the output
-
-## Installation
-```git
-  git clone https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP
-```
-- Set up a web server with PHP and Mysql database system
-- Import the database schema from `hotelmanagementsystem.sql`
-
-## Usage
-
-- Access the system via your web browser after setting up the server and database.
-- Navigate through different functionalities for managing guests, rooms, and reservations and fetching results for different queries.
-  <br>
   ## The Screenshots of the application
   ![Screenshot 2023-12-29 175041](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/cf9dd4b2-e459-4932-b67d-dc1f816d9bfa)
    <br>
@@ -33,6 +13,19 @@ This repository contains a Hotel Management System implemented using HTML, CSS, 
    <br>
    ![Screenshot 2023-12-29 175144](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/bb536a1c-1c41-4767-8633-b74fd52afd85)
   <br>
-
-
-
+## Techstacks Used
+- HTML, CSS, JavaScript frontend
+- PHP backend for database interactions
+## Features
+- CRUD Opearions
+- Executing Different queries and showing the output
+## Installation
+```git
+  git clone https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP
+```
+- Set up a web server with PHP and Mysql database system
+- Import the database schema from `hotelmanagementsystem.sql`
+## Usage
+- Access the system via your web browser after setting up the server and database.
+- Navigate through different functionalities for managing guests, rooms, and reservations and fetching results for different queries.
+  <br>
