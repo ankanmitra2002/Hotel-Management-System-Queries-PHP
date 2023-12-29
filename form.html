@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Management System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2>Hotel Management System Forms</h2>
+        <form action="hotelmanagement.php" method="post">
+            <input type="hidden" name="table" id="tableValue" value="">
+                <div id="formFields">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <br>
+        <button id="go-back" onclick="window.location.href = 'index.html'">Go Back</button>
+    </div>
+    <script>
+         function fetchFormFields(table) {
+                fetch(`formfields.php?table=${table}`)
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('formFields').innerHTML = data;
+                    });
+            }
+
+
+           window.onload = function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const tableValue = urlParams.get('table');
+                document.getElementById('tableValue').value = tableValue;
+                fetchFormFields(tableValue);
+               
+            };
+            
+          
+           
+               
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel management System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .btn{
+            background-color: #84d9e6;
+            color: black;
+        }
+        .btn:hover {
+        background-color: #0e00cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Hotel Management System Qeuries</h1>
+    
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_1" />
+            <button type="submit" class="btn btn-success">
+                Hotel Table After Insertion
+            </button>
+        </form>
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_2" />
+    
+            <button type="submit" class="btn btn-success">
+                Room Table After Insertion
+            </button>
+        </form>
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_3" />
+    
+            <button type="submit" class="btn btn-success">
+                Booking Table After Insertion
+            </button>
+        </form>
+        
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_4" />
+            <button type="submit" class="btn btn-success">
+               1. Give the names of the guests who have stayed in the same hotel at least thrice.
+            </button>
+        </form>
+    
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_5" />
+            <button type="submit" class="btn btn-success">
+                2. List the costliest rooms in each hotel.
+            </button>
+        </form>
+    
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_6" />
+            <button type="submit" class="btn btn-success">
+                3. List the total earnings from bookings in the last month for each hotel in Kolkata.
+            </button>
+        </form>
+    <form action="form.html" method="get"class="mb-2">
+        <input type="hidden" name="table" value="booking">
+            <button type="submit" class="btn btn-success">
+               4. Insert a new booking in the database.
+            </button>
+        </form>
+    
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_8" />
+            <button type="submit" class="btn btn-success">
+             5. Change the start_date and end_date of the new nooking.
+            </button>
+        </form>
+    
+        <form action="query.php" method="post" class="mb-2">
+            <input type="hidden" name="query" value="query_9" />
+            <button type="submit" class="btn btn-success">
+               6. Delete the record for the rooms with no bookings in the last 6 month.
+            </button>
+        </form>
+        <button id="go-back" onclick="window.location.href = 'index.html'">Go Back</button>
+    </div>
+</body>
+</html>
