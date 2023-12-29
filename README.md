@@ -11,7 +11,7 @@ This repository contains a Hotel Management System implemented using HTML, CSS, 
 
 ## Installation
 ```git
-Clone this repository: `git clone https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP`
+  git clone https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP
 ```
 - Set up a web server with PHP and Mysql database system
 - Import the database schema from `hotelmanagementsystem.sql`
