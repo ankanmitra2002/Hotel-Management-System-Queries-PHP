@@ -25,11 +25,14 @@ This repository contains a Hotel Management System implemented using HTML, CSS, 
    <br>
   ![Screenshot 2023-12-29 175056](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/14ef2fbe-1c56-44e6-9a8a-ed6810d9dcc0)
  <br>
-  ![Screenshot 2023-12-29 175112](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/136ab2ab-a147-4e0b-a5f6-0321477e2549)
- <br>
-  ![Screenshot 2023-12-29 175123](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/10a2533d-b1a4-4af2-83d9-70e284339437)
- <br>
-  ![Screenshot 2023-12-29 175134](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/46143fbc-566b-4e8a-b020-3a0f784619f8)
- <br>
-  ![Screenshot 2023-12-29 175144](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/fc514418-2cc3-4928-880e-70f32a997381)
+  ![Screenshot 2023-12-29 175112](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/9ad083e3-09a4-4b8e-aff6-e83ec98e68d3)
+  <br>
+  ![Screenshot 2023-12-29 175123](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/c0702973-5e3d-435f-b6c9-ecb1afac4ccc)
+   <br>
+   ![Screenshot 2023-12-29 175134](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/e98e2fab-2063-4736-9432-0ff59cb13253)
+   <br>
+   ![Screenshot 2023-12-29 175144](https://github.com/ankanmitra2002/Hotel-Management-System-Queries-PHP/assets/136356039/bb536a1c-1c41-4767-8633-b74fd52afd85)
+  <br>
+
+
 
